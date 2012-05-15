@@ -1,7 +1,7 @@
 var width = 1024,
-    height = 600;
+    height = 500;
 
-var vertices = d3.range(28).map(function(d) {
+var vertices = d3.range(100).map(function(d) {
   return [Math.random() * width, Math.random() * height];
 });
 
